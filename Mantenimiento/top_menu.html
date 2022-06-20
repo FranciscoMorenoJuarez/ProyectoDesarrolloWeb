@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top menu</title>
+
+    <style type="text/css">
+        * {
+            padding:0px;
+            margin:0px;
+        }
+
+        #header {
+            margin:auto;
+            width:1400px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        ul, ol {
+            list-style:none;
+        }
+
+        .nav li a {
+            background-color: #E30421;
+            color: white;
+            text-decoration: none;
+            padding:10px 50px;
+            display:block;
+        }
+
+        .nav li a:hover {
+            background-color: #434343;
+        }
+
+
+        .nav > li {
+            float: left;
+        }
+
+        .nav li ul{
+            display:none;
+            position:absolute;
+            min-width: 140px;
+        }
+
+        .nav li:hover > ul{
+            display: block;
+        }
+
+
+    </style>
+</head>
+<body bgcolor="#E30421">
+    <div id="header">
+        <ul class="nav">
+            <li><a href="LINK DE MANTENIMIENTO">Mantenimiento de equipo >></a>
+                <ul>
+                    <li><a href="">Ir a mantenimiento de equipo</a></li>
+                </ul>
+            </li>
+
+            <li><a href="LINK DE SOPORTE">Soporte Técnico >></a>
+                <ul>
+                    <li><a href="">Ir a Soporte técnico</a></li>
+                </ul>
+            </li>
+
+            <li><a href="LINK DE SALONES">Salones >></a>
+                <ul>
+                    <li><a href="">Ir a Salones</a></li>
+                </ul>
+            </li>
+
+            <li><a href="LINK DE PERSONAL">Personal >></a>
+                <ul>
+                    <li><a href="">Ir a Personal</a></li>
+                </ul>
+            </li>
+
+            <li><a href="LINK DE MOBILIARIO">Mobiliario >></a>
+                <ul>
+                    <li><a href="">Ir a Mobiliario</a></li>
+                </ul>
+            </li>
+
+            <li><a href="LINK DE REPORTES">Reportes >></a>
+                <ul>
+                    <li><a href="">Ir a Reportes</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</body>
+</html>
